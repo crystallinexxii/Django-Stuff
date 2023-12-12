@@ -1,30 +1,26 @@
-# Python on Replit
+# Project Name
 
-This is a template to get you started with Python on Replit. It's ready to go so you can just hit run and start coding!
+Description of the project.
 
-## Running the repl
+## Installation
 
-1. Setup a new secret environment variable (the lock icon) where the key is `SECRET_KEY` and the value is
-   a randomly generated token of 32 bits of randomnese. To generate such a token type this into the shell and hit Enter:
-```
-python
-import secrets
-secrets.token_urlsafe(32)
-```
-2. Hit run!
+1. Clone the repository.
+2. Install the necessary dependencies with `pip install -r requirements.txt`.
+3. Run the project with `python manage.py runserver`.
 
-See this 1 minute video for a walkthrough: [https://www.loom.com/share/ecc4e738149f4d1db3bcff01758b3e71](https://www.loom.com/share/341b5574d12040fb9fcbbff150777f1c)
+## Usage
 
-## Installing packages
+- Use the admin panel to manage projects.
+- Access the project page to view and interact with projects.
 
-To add packages to your repl, you can just import directly in the file you want to use the package in, and it will automatically be installed when you press the run button. Like below:
-```python
-import math
-import pandas as pd
-```
+## Contributing
 
-You could also install packages by using the Replit packager interface in the left sidebar.
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push to the branch.
+5. Submit a pull request.
 
-## Help
+## License
 
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+This project is licensed under the [MIT License](link to license).
